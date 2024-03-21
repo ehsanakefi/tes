@@ -394,7 +394,7 @@ hr {
   }
 
   .subject h1 {
-    font-size: 2.3rem;
+    font-size: 2.25rem;
   }
   .nav_list {
     display: none;
@@ -422,7 +422,7 @@ hr {
     font-size: 2rem;
   }
   .poster_image {
-    width: 40%;
+    width: 50%;
     /* width: 15rem; */
   }
   .part_poster1 {
