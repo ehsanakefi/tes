@@ -403,7 +403,7 @@ hr {
     flex-direction: column;
   }
   .poster_image {
-    width: 50%;
+    width: 45%;
   }
   .containe {
     padding: 3rem 3rem;
@@ -422,7 +422,7 @@ hr {
     font-size: 2rem;
   }
   .poster_image {
-    width: 70%;
+    width: 55%;
     /* width: 15rem; */
   }
   .part_poster1 {
