@@ -221,6 +221,7 @@ hr {
 .card {
   width: 20%;
   margin: 1.5rem 1.5%;
+  min-width: 16rem;
   display: flex;
   flex-direction: column;
 }
@@ -321,6 +322,7 @@ hr {
 .card_research {
   width: 28%;
   margin: 2.5rem 2.5%;
+  min-width: 16rem;
   display: flex;
   height: 28rem;
   box-shadow: -15px 15px 45px 10px rgba(188, 188, 188, 0.6);
@@ -352,6 +354,7 @@ hr {
 .icons_research_box {
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
   padding: 0.5rem;
   justify-content: space-around;
 }
@@ -414,6 +417,9 @@ hr {
     font-size: 0.8rem;
     padding: 1rem 1.3rem;
   }
+  .t_aboutus {
+    text-align: center;
+  }
   .containe {
     padding: 3rem 1rem;
     flex: 1;
@@ -430,6 +436,18 @@ hr {
     bottom: 6rem;
     right: 0;
     min-width: 1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .poster_image {
+    width: 40%;
+    /* width: 15rem; */
+  }
+  .part_poster {
+    min-width: 6rem;
+  }
+  .part_poster1 {
+    min-width: 6rem;
   }
 }
 /* part five*/
